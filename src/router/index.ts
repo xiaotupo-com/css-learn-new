@@ -57,6 +57,11 @@ const router = createRouter({
           name: 'border-radius',
           path: 'border-radius',
           component: () => import('../components/CSSLearn/BorderRadius.vue')
+        },
+        {
+          name: 'stripe-demo',
+          path: 'stripe-demo',
+          component: () => import('../components/CSSLearn/StripeDemo.vue')
         }
       ],
     },

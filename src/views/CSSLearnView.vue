@@ -12,6 +12,8 @@ import { RouterView, RouterLink } from 'vue-router'
       <RouterLink :to="{ name: 'triangle-arrow' }" class="button default">三角形小箭头</RouterLink>
       <RouterLink :to="{ name: 'background-position' }" class="button default">背景定位</RouterLink>
       <RouterLink :to="{ name: 'border-radius' }" class="button default">边框内圆角</RouterLink>
+      <RouterLink :to="{ name: 'stripe-demo' }" class="button default">条纹</RouterLink>
+
     </nav>
     <div class="content">
       <RouterView />
