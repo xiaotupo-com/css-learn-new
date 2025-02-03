@@ -13,7 +13,7 @@ import { RouterView, RouterLink } from 'vue-router'
       <RouterLink :to="{ name: 'background-position' }" class="button default">背景定位</RouterLink>
       <RouterLink :to="{ name: 'border-radius' }" class="button default">边框内圆角</RouterLink>
       <RouterLink :to="{ name: 'stripe-demo' }" class="button default">条纹</RouterLink>
-
+      <RouterLink :to="{ name: 'radial-gradient-demo' }" class="button default">径向渐变</RouterLink>
     </nav>
     <div class="content">
       <RouterView />

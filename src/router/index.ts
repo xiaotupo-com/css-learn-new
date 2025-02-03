@@ -62,6 +62,11 @@ const router = createRouter({
           name: 'stripe-demo',
           path: 'stripe-demo',
           component: () => import('../components/CSSLearn/StripeDemo.vue')
+        },
+        {
+          name: 'radial-gradient-demo',
+          path: 'radial-gradient-demo',
+          component: () => import('../components/CSSLearn/RadialGradientDemo.vue')
         }
       ],
     },
