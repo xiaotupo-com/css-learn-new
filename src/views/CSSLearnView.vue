@@ -5,16 +5,13 @@ import { RouterView, RouterLink } from 'vue-router'
   <main>
     <nav>
       <h2 class="nav-title">CSS 子目录</h2>
-      <RouterLink :to="{ name: 'background-clip' }" class="button default"
-        >BackgroundClip</RouterLink
-      >
+      <RouterLink :to="{ name: 'background-clip' }" class="button default">BackgroundClip</RouterLink>
       <RouterLink :to="{ name: 'box-shadow' }" class="button default">BoxShadow</RouterLink>
       <RouterLink :to="{ name: 'outline' }" class="button default">outline</RouterLink>
-      <RouterLink :to="{ name: 'linear-gradient' }" class="button default"
-        >linear-gradient</RouterLink
-      >
+      <RouterLink :to="{ name: 'linear-gradient' }" class="button default">linear-gradient</RouterLink>
       <RouterLink :to="{ name: 'triangle-arrow' }" class="button default">三角形小箭头</RouterLink>
       <RouterLink :to="{ name: 'background-position' }" class="button default">背景定位</RouterLink>
+      <RouterLink :to="{ name: 'border-radius' }" class="button default">边框内圆角</RouterLink>
     </nav>
     <div class="content">
       <RouterView />

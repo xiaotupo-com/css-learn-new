@@ -53,6 +53,11 @@ const router = createRouter({
           path: 'background-position',
           component: () => import('../components/CSSLearn/BackgroundPosition.vue'),
         },
+        {
+          name: 'border-radius',
+          path: 'border-radius',
+          component: () => import('../components/CSSLearn/BorderRadius.vue')
+        }
       ],
     },
   ],
