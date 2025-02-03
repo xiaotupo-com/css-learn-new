@@ -44,6 +44,7 @@
   --sft-margin-b: 1.5rem;
   --sft-margin-y: 1.5rem;
   --sft-c-yellow: #d1c51a;
+  --sft-c-gray: #8282827c;
 }
 
 /* @media (prefers-color-scheme: dark) {

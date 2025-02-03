@@ -64,10 +64,31 @@ import CSSLearnItem from '../CSSLearnItem.vue'
   </CSSLearnItem>
 
   <CSSLearnMainTitle title="background-origin" />
-  <CSSLearnItem content-class="box-wrap" title-color-style="#299764">
+  <CSSLearnItem title-color-style="#299764">
     <template #heading> background-origin </template>
     <template #content>
-      <div class="box1">f</div>
+      <div class="wrap">
+        <div class="box1">
+          <pre>
+.box1 {
+  padding: 25px;
+  background: url(../../assets/star.png) no-repeat var(--sft-c-gray);
+  height: 200px;
+}
+          </pre>
+        </div>
+        <div class="box2">
+          <pre>
+.box2 {
+  padding: 25px;
+  background: url(../../assets/star.png) no-repeat var(--sft-c-gray);
+  background-origin: content-box;
+  height: 200px;
+}
+        </pre>
+        </div>
+      </div>
+
     </template>
   </CSSLearnItem>
 </template>
@@ -123,9 +144,22 @@ import CSSLearnItem from '../CSSLearnItem.vue'
   }
 }
 
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .box1 {
   padding: 25px;
-  background: var(--sft-c-gray);
+  background: url(../../assets/star.png) no-repeat var(--sft-c-gray);
+  height: 200px;
+}
+
+.box2 {
+  padding: 25px;
+  background: url(../../assets/star.png) no-repeat var(--sft-c-gray);
+  background-origin: content-box;
   height: 200px;
 }
 </style>
