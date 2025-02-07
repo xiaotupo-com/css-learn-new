@@ -14,7 +14,10 @@ import { RouterView, RouterLink } from 'vue-router'
       <RouterLink :to="{ name: 'border-radius' }" class="button default">边框内圆角</RouterLink>
       <RouterLink :to="{ name: 'stripe-demo' }" class="button default">条纹</RouterLink>
       <RouterLink :to="{ name: 'radial-gradient-demo' }" class="button default">径向渐变</RouterLink>
+      <RouterLink :to="{ name: 'border-image' }" class="button default">边框图片示例</RouterLink>
+      <RouterLink :to="{ name: 'background-size' }" class="button default">背景大小</RouterLink>
     </nav>
+
     <div class="content">
       <RouterView />
     </div>

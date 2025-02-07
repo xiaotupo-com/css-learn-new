@@ -67,6 +67,16 @@ const router = createRouter({
           name: 'radial-gradient-demo',
           path: 'radial-gradient-demo',
           component: () => import('../components/CSSLearn/RadialGradientDemo.vue')
+        },
+        {
+          name: "border-image",
+          path: 'border-image',
+          component: () => import('../components/CSSLearn/BorderImage.vue')
+        },
+        {
+          name: 'background-size',
+          path: 'background-size',
+          component: () => import('../components/CSSLearn/BackgroundSize.vue')
         }
       ],
     },

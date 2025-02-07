@@ -32,3 +32,11 @@ a.button.default:hover {
   box-shadow: 0 3px 5px rgba(218, 217, 217, 0.76);
   font-weight: bold;
 }
+
+strong {
+  font-size: 1.15rem;
+  color: #fff;
+  background: #ffc107;
+  border-radius: 0.5rem;
+  padding: 0.15rem;
+}
