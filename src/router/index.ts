@@ -77,6 +77,11 @@ const router = createRouter({
           name: 'background-size',
           path: 'background-size',
           component: () => import('../components/CSSLearn/BackgroundSize.vue')
+        },
+        {
+          name: 'background-origin',
+          path: 'background-origin',
+          component: () => import('../components/CSSLearn/BackgroundOrigin.vue')
         }
       ],
     },

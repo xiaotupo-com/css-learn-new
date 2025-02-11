@@ -6,7 +6,7 @@ import CSSLearnMainTitle from '../layouts/CSSLearnMainTitle.vue'
 <template>
   <CSSLearnMainTitle title="BackgroundClip" />
   <p class="p">
-    background-clip 设置元素的背景（背景图片或颜色）是否延伸到边框、内边距盒子、内容盒子下面。
+    background-clip 设置元素的背景（背景图片或颜色）是否<b>延伸</b>到边框、内边距盒子、内容盒子下面。
   </p>
   <p class="p">
     如果没有设置背景图片（background-image）或背景颜色（background-color），那么这个属性只有在边框（
@@ -20,12 +20,11 @@ import CSSLearnMainTitle from '../layouts/CSSLearnMainTitle.vue'
       <AlignLeft>
         <pre>
 .item1 {
-  border: 10px solid hsla(0, 70%, 75%, 0.315);
+  border: 5px dashed hsla(219, 73%, 44%, 0.733);
   background: rgb(219, 63, 63);
   background-clip: padding-box;
 }
-  </pre
-        >
+  </pre>
       </AlignLeft>
     </template>
   </CSSLearnItem>
@@ -37,12 +36,11 @@ import CSSLearnMainTitle from '../layouts/CSSLearnMainTitle.vue'
       <AlignLeft>
         <pre>
 .item2 {
-  border: 10px solid hsla(0, 70%, 75%, 0.315);
-  background: rgb(44, 139, 35);
+  border: 10px dashed hsl(48, 48%, 94%);
+  background: green;
   background-clip: border-box;
 }
-  </pre
-        >
+  </pre>
       </AlignLeft>
     </template>
   </CSSLearnItem>
@@ -54,12 +52,12 @@ import CSSLearnMainTitle from '../layouts/CSSLearnMainTitle.vue'
       <AlignLeft>
         <pre>
 .item3 {
-  border: 10px dashed hsla(0, 70%, 75%, 0.315);
+  border: 10px dashed hsla(48, 11%, 9%, 0.918);
   background: rgb(38, 115, 151);
   background-clip: content-box;
+  padding: 12px;
 }
-  </pre
-        >
+  </pre>
       </AlignLeft>
     </template>
   </CSSLearnItem>
@@ -77,8 +75,7 @@ import CSSLearnMainTitle from '../layouts/CSSLearnMainTitle.vue'
   background-clip: text;
   color: transparent;
 }
-  </pre
-        >
+  </pre>
       </AlignLeft>
     </template>
   </CSSLearnItem>
@@ -97,21 +94,22 @@ import CSSLearnMainTitle from '../layouts/CSSLearnMainTitle.vue'
 }
 
 .item1 {
-  border: 10px solid hsla(0, 70%, 75%, 0.315);
+  border: 10px dashed hsla(219, 73%, 44%, 0.733);
   background: rgb(219, 63, 63);
   background-clip: padding-box;
 }
 
 .item2 {
-  border: 10px solid hsla(0, 70%, 75%, 0.315);
-  background: rgb(44, 139, 35);
+  border: 10px dashed hsl(48, 48%, 94%);
+  background: green;
   background-clip: border-box;
 }
 
 .item3 {
-  border: 10px dashed hsla(0, 70%, 75%, 0.315);
+  border: 10px dashed hsla(48, 11%, 9%, 0.918);
   background: rgb(38, 115, 151);
   background-clip: content-box;
+  padding: 12px;
 }
 
 .item4 {

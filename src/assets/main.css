@@ -34,9 +34,45 @@ a.button.default:hover {
 }
 
 strong {
+  font-weight: bold;
+  color: #308021;
+  background: #a8c9b68c;
+}
+
+code,
+strong {
   font-size: 1.15rem;
-  color: #fff;
-  background: #ffc107;
-  border-radius: 0.5rem;
-  padding: 0.15rem;
+  padding: 3px 0.3em;
+  border-radius: 0.4em;
+  margin: var(--sft-code-margin);
+}
+
+code {
+  color: #6d7087;
+  border: 1px solid #ccc;
+  background-color: #e6e9ef9c;
+  vertical-align: middle;
+  box-sizing: border-box;
+  line-height: 26px;
+  background-clip: border-box;
+}
+
+code::selection {
+  background: red;
+}
+
+/* 覆盖所有代码块元素 */
+code,
+pre,
+samp,
+kbd {
+  font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', Menlo, Monaco, 'Ubuntu Mono',
+    monospace;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background-color: #da6666;
 }

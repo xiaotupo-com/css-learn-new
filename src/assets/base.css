@@ -41,10 +41,13 @@
 
   --sft-border-radius: 1rem;
   --sft-margin-x: 2rem;
+  --sft-margin-x-4px: 4px;
+  --sft-margin-x-6px: 6px;
   --sft-margin-b: 1.5rem;
   --sft-margin-y: 1.5rem;
   --sft-c-yellow: #d1c51a;
   --sft-c-gray: #8282827c;
+  --sft-code-margin: 0 var(--sft-margin-x-6px);
 }
 
 /* @media (prefers-color-scheme: dark) {

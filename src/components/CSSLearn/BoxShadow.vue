@@ -21,8 +21,24 @@ import CSSLearnItem from '../CSSLearnItem.vue'
               0 0 0 20px hsla(143, 61%, 61%, 0.863),
               0 0 0 30px hsla(209, 67%, 62%, 0.863);
 }
-      </pre
-          >
+      </pre>
+        </AlignLeft>
+      </div>
+      <hr>
+      <div class="container">
+        <button class="btn">Ok</button>
+        <AlignLeft>
+          <pre>
+.item {
+  margin: 50px;
+  width: 300px;
+  height: 100px;
+  background: yellowgreen;
+  box-shadow: 0 0 0 10px rgb(189, 52, 52),
+              0 0 0 20px hsla(143, 61%, 61%, 0.863),
+              0 0 0 30px hsla(209, 67%, 62%, 0.863);
+}
+      </pre>
         </AlignLeft>
       </div>
     </template>
@@ -39,5 +55,9 @@ import CSSLearnItem from '../CSSLearnItem.vue'
     0 0 0 10px rgb(189, 52, 52),
     0 0 0 20px hsla(143, 61%, 61%, 0.863),
     0 0 0 30px hsla(209, 67%, 62%, 0.863);
+}
+
+.btn {
+  padding: 6px 12px;
 }
 </style>
